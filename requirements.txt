@@ -1,0 +1,53 @@
+# Core Web & API Framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.0
+python-multipart==0.0.20
+sse-starlette==2.2.1
+httpx==0.28.1
+
+# Multi-Agent & Orchestration
+langgraph==0.2.60
+langchain==0.3.14
+langchain-core==0.3.29
+langchain-community==0.3.14
+langchain-openai==0.3.0
+litellm==1.56.8
+
+# Database & Vector Store
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+psycopg2-binary==2.9.10
+pgvector==0.3.6
+
+# Cache & Semantic Memory
+redis[hiredis]==5.2.1
+
+# Document Ingestion & Parsing
+pypdf==5.1.0
+pdfplumber==0.11.5
+python-docx==1.1.2
+tiktoken==0.8.0
+
+# Retrieval & Embeddings & Reranking
+sentence-transformers==3.3.1
+rank-bm25==0.2.2
+numpy==1.26.4
+
+# Security & Guardrails
+sqlglot==26.6.0
+
+# LLMOps & Evaluation
+langfuse==2.57.14
+ragas==0.2.10
+datasets==3.2.0
+
+# Utilities & Configuration
+python-dotenv==1.0.1
+tenacity==9.0.0
+loguru==0.7.3
+
+# Testing & Development
+pytest==8.3.4
+pytest-asyncio==0.25.0
