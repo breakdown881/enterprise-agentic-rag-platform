@@ -1,0 +1,27 @@
+[
+  {
+    "question": "Thời hạn thanh toán hợp đồng dịch vụ tiêu chuẩn theo quy định là bao nhiêu ngày?",
+    "ground_truth": "Thời hạn thanh toán hợp đồng dịch vụ tiêu chuẩn là 30 ngày kể từ ngày nhận đủ hóa đơn tài chính hợp lệ.",
+    "category": "DOCUMENT_RAG"
+  },
+  {
+    "question": "Chính sách làm việc từ xa (Work From Home) của công ty áp dụng tối đa bao nhiêu ngày mỗi tuần?",
+    "ground_truth": "Nhân viên chính thức được phép đăng ký làm việc từ xa tối đa 2 ngày mỗi tuần sau khi được quản lý trực tiếp phê duyệt.",
+    "category": "DOCUMENT_RAG"
+  },
+  {
+    "question": "Khách hàng thuộc hạng VIP được hưởng mức chiết khấu thương mại là bao nhiêu phần trăm?",
+    "ground_truth": "Khách hàng hạng VIP được hưởng mức chiết khấu thương mại 15% cho tất cả các đơn hàng phần cứng và dịch vụ cloud.",
+    "category": "DOCUMENT_RAG"
+  },
+  {
+    "question": "Tổng số lượng khách hàng hạng VIP hiện tại trong hệ thống là bao nhiêu?",
+    "ground_truth": "Hệ thống hiện có 1 khách hàng đạt hạng VIP là Nguyen Van A (nguyen.a@enterprise.vn).",
+    "category": "TEXT_TO_SQL"
+  },
+  {
+    "question": "Danh mục sản phẩm nào có số lượng sản phẩm nhiều nhất và tổng số lượng tồn kho là bao nhiêu?",
+    "ground_truth": "Truy vấn danh mục sản phẩm từ bảng categories và products để tính tổng tồn kho theo từng category_id.",
+    "category": "TEXT_TO_SQL"
+  }
+]
